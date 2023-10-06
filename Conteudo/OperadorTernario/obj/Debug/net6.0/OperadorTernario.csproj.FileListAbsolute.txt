@@ -1,0 +1,14 @@
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\OperadorTernario\obj\Debug\net6.0\OperadorTernario.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\OperadorTernario\obj\Debug\net6.0\OperadorTernario.AssemblyInfoInputs.cache
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\OperadorTernario\obj\Debug\net6.0\OperadorTernario.AssemblyInfo.cs
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\OperadorTernario\obj\Debug\net6.0\OperadorTernario.csproj.CoreCompileInputs.cache
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\OperadorTernario\bin\Debug\net6.0\OperadorTernario.exe
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\OperadorTernario\bin\Debug\net6.0\OperadorTernario.deps.json
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\OperadorTernario\bin\Debug\net6.0\OperadorTernario.runtimeconfig.json
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\OperadorTernario\bin\Debug\net6.0\OperadorTernario.dll
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\OperadorTernario\bin\Debug\net6.0\OperadorTernario.pdb
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\OperadorTernario\obj\Debug\net6.0\OperadorTernario.dll
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\OperadorTernario\obj\Debug\net6.0\refint\OperadorTernario.dll
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\OperadorTernario\obj\Debug\net6.0\OperadorTernario.pdb
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\OperadorTernario\obj\Debug\net6.0\OperadorTernario.genruntimeconfig.cache
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\OperadorTernario\obj\Debug\net6.0\ref\OperadorTernario.dll

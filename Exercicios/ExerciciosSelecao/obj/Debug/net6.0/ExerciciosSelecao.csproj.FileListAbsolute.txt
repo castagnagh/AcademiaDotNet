@@ -1,0 +1,14 @@
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\ExerciciosSelecao\bin\Debug\net6.0\ExerciciosSelecao.exe
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\ExerciciosSelecao\bin\Debug\net6.0\ExerciciosSelecao.deps.json
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\ExerciciosSelecao\bin\Debug\net6.0\ExerciciosSelecao.runtimeconfig.json
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\ExerciciosSelecao\bin\Debug\net6.0\ExerciciosSelecao.dll
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\ExerciciosSelecao\bin\Debug\net6.0\ExerciciosSelecao.pdb
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\ExerciciosSelecao\obj\Debug\net6.0\ExerciciosSelecao.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\ExerciciosSelecao\obj\Debug\net6.0\ExerciciosSelecao.AssemblyInfoInputs.cache
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\ExerciciosSelecao\obj\Debug\net6.0\ExerciciosSelecao.AssemblyInfo.cs
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\ExerciciosSelecao\obj\Debug\net6.0\ExerciciosSelecao.csproj.CoreCompileInputs.cache
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\ExerciciosSelecao\obj\Debug\net6.0\ExerciciosSelecao.dll
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\ExerciciosSelecao\obj\Debug\net6.0\refint\ExerciciosSelecao.dll
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\ExerciciosSelecao\obj\Debug\net6.0\ExerciciosSelecao.pdb
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\ExerciciosSelecao\obj\Debug\net6.0\ExerciciosSelecao.genruntimeconfig.cache
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\ExerciciosSelecao\obj\Debug\net6.0\ref\ExerciciosSelecao.dll

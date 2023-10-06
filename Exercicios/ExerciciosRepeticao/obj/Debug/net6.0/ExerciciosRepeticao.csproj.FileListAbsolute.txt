@@ -1,0 +1,14 @@
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\ExerciciosRepeticao\obj\Debug\net6.0\ExerciciosRepeticao.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\ExerciciosRepeticao\obj\Debug\net6.0\ExerciciosRepeticao.AssemblyInfoInputs.cache
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\ExerciciosRepeticao\obj\Debug\net6.0\ExerciciosRepeticao.AssemblyInfo.cs
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\ExerciciosRepeticao\obj\Debug\net6.0\ExerciciosRepeticao.csproj.CoreCompileInputs.cache
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\ExerciciosRepeticao\bin\Debug\net6.0\ExerciciosRepeticao.exe
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\ExerciciosRepeticao\bin\Debug\net6.0\ExerciciosRepeticao.deps.json
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\ExerciciosRepeticao\bin\Debug\net6.0\ExerciciosRepeticao.runtimeconfig.json
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\ExerciciosRepeticao\bin\Debug\net6.0\ExerciciosRepeticao.dll
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\ExerciciosRepeticao\bin\Debug\net6.0\ExerciciosRepeticao.pdb
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\ExerciciosRepeticao\obj\Debug\net6.0\ExerciciosRepeticao.dll
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\ExerciciosRepeticao\obj\Debug\net6.0\refint\ExerciciosRepeticao.dll
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\ExerciciosRepeticao\obj\Debug\net6.0\ExerciciosRepeticao.pdb
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\ExerciciosRepeticao\obj\Debug\net6.0\ExerciciosRepeticao.genruntimeconfig.cache
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\ExerciciosRepeticao\obj\Debug\net6.0\ref\ExerciciosRepeticao.dll
