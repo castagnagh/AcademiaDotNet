@@ -1,0 +1,14 @@
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\Exercicios\ExerciciosVetores\bin\Debug\net6.0\ExerciciosVetores.exe
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\Exercicios\ExerciciosVetores\bin\Debug\net6.0\ExerciciosVetores.deps.json
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\Exercicios\ExerciciosVetores\bin\Debug\net6.0\ExerciciosVetores.runtimeconfig.json
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\Exercicios\ExerciciosVetores\bin\Debug\net6.0\ExerciciosVetores.dll
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\Exercicios\ExerciciosVetores\bin\Debug\net6.0\ExerciciosVetores.pdb
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\Exercicios\ExerciciosVetores\obj\Debug\net6.0\ExerciciosVetores.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\Exercicios\ExerciciosVetores\obj\Debug\net6.0\ExerciciosVetores.AssemblyInfoInputs.cache
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\Exercicios\ExerciciosVetores\obj\Debug\net6.0\ExerciciosVetores.AssemblyInfo.cs
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\Exercicios\ExerciciosVetores\obj\Debug\net6.0\ExerciciosVetores.csproj.CoreCompileInputs.cache
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\Exercicios\ExerciciosVetores\obj\Debug\net6.0\ExerciciosVetores.dll
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\Exercicios\ExerciciosVetores\obj\Debug\net6.0\refint\ExerciciosVetores.dll
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\Exercicios\ExerciciosVetores\obj\Debug\net6.0\ExerciciosVetores.pdb
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\Exercicios\ExerciciosVetores\obj\Debug\net6.0\ExerciciosVetores.genruntimeconfig.cache
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\Exercicios\ExerciciosVetores\obj\Debug\net6.0\ref\ExerciciosVetores.dll

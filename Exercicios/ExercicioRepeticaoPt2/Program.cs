@@ -551,75 +551,49 @@ namespace ExerciciosRepeticaoPt2
             e que tenham olhos verdes e cabelos louros.
             O final do conjunto de habitantes é reconhecido pelo valor -1 entrada como idade.*/
 
-            //int sexo, olhos, cabelos, mulheresCondicao = 0, maior = 0, idade = 0, olhosAzuis = 0, olhosVerdes = 0, olhosCastanhos = 0, cabeloLouro = 0, cabeloCastanho = 0, cabeloPreto = 0;
+            // int sexo;
+            // int maiorIdade = 0, idade;
+            // int corOlhos; //0 = azul, 1 = verde, 2 = castanhos
+            // int corCabelo; //0 = loiro, 1 = castanho, 2 = preto
+            // int op = -1;
+            // int contagem = 0;
 
-            //while (idade >= 0)
-            //{
-            //    Console.WriteLine("Informe sua idade: ");
-            //    idade = int.Parse(Console.ReadLine());
-            //    if (idade > 0)
-            //    {
-            //        if (idade > maior)
-            //        {
-            //            maior = idade;
-            //        }
-            //        Console.WriteLine("Sexo");
-            //        Console.WriteLine("1 - Masculino");
-            //        Console.WriteLine("2 - Feminino");
-            //        sexo = int.Parse(Console.ReadLine());
-            //        Console.WriteLine("Cor dos olhos");
-            //        Console.WriteLine("1 - Azuis");
-            //        Console.WriteLine("2 - Verdes");
-            //        Console.WriteLine("3 - Castanhos");
-            //        olhos = int.Parse(Console.ReadLine());
-            //        switch (olhos)
-            //        {
-            //            case 1:
-            //                olhosAzuis++;
-            //                break;
-            //            case 2:
-            //                olhosVerdes++;
-            //                break;
-            //            case 3:
-            //                olhosCastanhos++;
-            //                break;
-            //            default:
-            //                Console.WriteLine("Opção inválida");
-            //                break;
-            //        }
-            //        Console.WriteLine("Cor dos Cabelos");
-            //        Console.WriteLine("1 - Louros");
-            //        Console.WriteLine("2 - Castanhos");
-            //        Console.WriteLine("3 - Pretos");
-            //        cabelos = int.Parse(Console.ReadLine());
-            //        switch (olhos)
-            //        {
-            //            case 1:
-            //                cabeloLouro++;
-            //                break;
-            //            case 2:
-            //                cabeloCastanho++;
-            //                break;
-            //            case 3:
-            //                cabeloPreto++;
-            //                break;
-            //            default:
-            //                Console.WriteLine("Opção inválida");
-            //                break;
-            //        }
-            //        if (idade >= 18 && idade <= 35 && olhos == 2 && cabelos == 1)
-            //        {
-            //            mulheresCondicao++;
-            //        }
-            //    }
-            //    else
-            //    {
-            //        Console.WriteLine("Programa encerrou!");
-            //    }
-            //}
-            //Console.WriteLine("A maior idade dentre os habitantes é: " + maior);
-            //Console.WriteLine("A quantidade de indivíduos do sexo feminino cuja idade está entre 18 e 35 anos inclusive " +
-            //    "e que tenham olhos verdes e cabelos louros: " + mulheresCondicao);
+            // do
+            // {
+            //     Console.WriteLine("CADASTRO DE INDIVÍDUOS");
+            //     Console.WriteLine("Digite o sexo da pessoa (0 - feminino e 1 para Masculino) : ");
+            //     sexo = int.Parse(Console.ReadLine());
+
+            //     Console.WriteLine("Digite a cor dos olhos (0 = azul, 1 = verde, 2 = castanhos):");
+            //     corOlhos = int.Parse(Console.ReadLine());
+
+            //     Console.WriteLine("Digite a cor dos cabelos 0 = loiro, 1 = castanho, 2 = preto:");
+            //     corCabelo = int.Parse(Console.ReadLine());
+
+            //     Console.WriteLine("Digite a idade:");
+            //     idade = int.Parse(Console.ReadLine());
+
+            //     if(idade > maiorIdade)
+            //     {
+            //         maiorIdade = idade;
+            //     }
+
+            //     if(sexo == 0 && (idade > 18 && idade < 35) 
+            //         && corOlhos == 1 && corCabelo == 0)
+            //     {
+            //         contagem++;
+            //     }
+
+            //     Console.WriteLine("Informe -1 para encerrar ou quqlquer outro valor para continuar");
+            //     op = int.Parse(Console.ReadLine());
+
+            // } while (op != -1);
+
+
+            // Console.WriteLine("A pessoa mais velha possui " + 
+            //     maiorIdade + " anos e existem " + contagem + 
+            //     " mulheres com idade entre 18 e 35 com olhos " +
+            //     "verdes e cabelos louros.");
 
 
         }
