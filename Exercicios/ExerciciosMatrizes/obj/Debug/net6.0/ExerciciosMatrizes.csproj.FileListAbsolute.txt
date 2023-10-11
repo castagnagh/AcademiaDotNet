@@ -1,0 +1,14 @@
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\Exercicios\ExerciciosMatrizes\bin\Debug\net6.0\ExerciciosMatrizes.exe
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\Exercicios\ExerciciosMatrizes\bin\Debug\net6.0\ExerciciosMatrizes.deps.json
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\Exercicios\ExerciciosMatrizes\bin\Debug\net6.0\ExerciciosMatrizes.runtimeconfig.json
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\Exercicios\ExerciciosMatrizes\bin\Debug\net6.0\ExerciciosMatrizes.dll
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\Exercicios\ExerciciosMatrizes\bin\Debug\net6.0\ExerciciosMatrizes.pdb
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\Exercicios\ExerciciosMatrizes\obj\Debug\net6.0\ExerciciosMatrizes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\Exercicios\ExerciciosMatrizes\obj\Debug\net6.0\ExerciciosMatrizes.AssemblyInfoInputs.cache
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\Exercicios\ExerciciosMatrizes\obj\Debug\net6.0\ExerciciosMatrizes.AssemblyInfo.cs
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\Exercicios\ExerciciosMatrizes\obj\Debug\net6.0\ExerciciosMatrizes.csproj.CoreCompileInputs.cache
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\Exercicios\ExerciciosMatrizes\obj\Debug\net6.0\ExerciciosMatrizes.dll
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\Exercicios\ExerciciosMatrizes\obj\Debug\net6.0\refint\ExerciciosMatrizes.dll
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\Exercicios\ExerciciosMatrizes\obj\Debug\net6.0\ExerciciosMatrizes.pdb
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\Exercicios\ExerciciosMatrizes\obj\Debug\net6.0\ExerciciosMatrizes.genruntimeconfig.cache
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\Exercicios\ExerciciosMatrizes\obj\Debug\net6.0\ref\ExerciciosMatrizes.dll
