@@ -1,0 +1,14 @@
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\Conteudo\AulaFuncoes\bin\Debug\net6.0\AulaFuncoes.exe
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\Conteudo\AulaFuncoes\bin\Debug\net6.0\AulaFuncoes.deps.json
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\Conteudo\AulaFuncoes\bin\Debug\net6.0\AulaFuncoes.runtimeconfig.json
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\Conteudo\AulaFuncoes\bin\Debug\net6.0\AulaFuncoes.dll
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\Conteudo\AulaFuncoes\bin\Debug\net6.0\AulaFuncoes.pdb
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\Conteudo\AulaFuncoes\obj\Debug\net6.0\AulaFuncoes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\Conteudo\AulaFuncoes\obj\Debug\net6.0\AulaFuncoes.AssemblyInfoInputs.cache
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\Conteudo\AulaFuncoes\obj\Debug\net6.0\AulaFuncoes.AssemblyInfo.cs
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\Conteudo\AulaFuncoes\obj\Debug\net6.0\AulaFuncoes.csproj.CoreCompileInputs.cache
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\Conteudo\AulaFuncoes\obj\Debug\net6.0\AulaFuncoes.dll
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\Conteudo\AulaFuncoes\obj\Debug\net6.0\refint\AulaFuncoes.dll
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\Conteudo\AulaFuncoes\obj\Debug\net6.0\AulaFuncoes.pdb
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\Conteudo\AulaFuncoes\obj\Debug\net6.0\AulaFuncoes.genruntimeconfig.cache
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\Conteudo\AulaFuncoes\obj\Debug\net6.0\ref\AulaFuncoes.dll

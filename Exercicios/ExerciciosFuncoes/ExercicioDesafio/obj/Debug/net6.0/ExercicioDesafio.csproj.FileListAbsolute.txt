@@ -1,0 +1,14 @@
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\Exercicios\ExerciciosFuncoes\ExercicioDesafio\obj\Debug\net6.0\ExercicioDesafio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\Exercicios\ExerciciosFuncoes\ExercicioDesafio\obj\Debug\net6.0\ExercicioDesafio.AssemblyInfoInputs.cache
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\Exercicios\ExerciciosFuncoes\ExercicioDesafio\obj\Debug\net6.0\ExercicioDesafio.AssemblyInfo.cs
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\Exercicios\ExerciciosFuncoes\ExercicioDesafio\obj\Debug\net6.0\ExercicioDesafio.csproj.CoreCompileInputs.cache
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\Exercicios\ExerciciosFuncoes\ExercicioDesafio\bin\Debug\net6.0\ExercicioDesafio.exe
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\Exercicios\ExerciciosFuncoes\ExercicioDesafio\bin\Debug\net6.0\ExercicioDesafio.deps.json
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\Exercicios\ExerciciosFuncoes\ExercicioDesafio\bin\Debug\net6.0\ExercicioDesafio.runtimeconfig.json
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\Exercicios\ExerciciosFuncoes\ExercicioDesafio\bin\Debug\net6.0\ExercicioDesafio.dll
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\Exercicios\ExerciciosFuncoes\ExercicioDesafio\bin\Debug\net6.0\ExercicioDesafio.pdb
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\Exercicios\ExerciciosFuncoes\ExercicioDesafio\obj\Debug\net6.0\ExercicioDesafio.dll
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\Exercicios\ExerciciosFuncoes\ExercicioDesafio\obj\Debug\net6.0\refint\ExercicioDesafio.dll
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\Exercicios\ExerciciosFuncoes\ExercicioDesafio\obj\Debug\net6.0\ExercicioDesafio.pdb
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\Exercicios\ExerciciosFuncoes\ExercicioDesafio\obj\Debug\net6.0\ExercicioDesafio.genruntimeconfig.cache
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\Exercicios\ExerciciosFuncoes\ExercicioDesafio\obj\Debug\net6.0\ref\ExercicioDesafio.dll
