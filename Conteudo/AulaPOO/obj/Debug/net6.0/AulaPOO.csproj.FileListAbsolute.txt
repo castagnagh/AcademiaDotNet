@@ -1,0 +1,14 @@
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\Conteudo\AulaPOO\obj\Debug\net6.0\AulaPOO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\Conteudo\AulaPOO\obj\Debug\net6.0\AulaPOO.AssemblyInfoInputs.cache
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\Conteudo\AulaPOO\obj\Debug\net6.0\AulaPOO.AssemblyInfo.cs
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\Conteudo\AulaPOO\obj\Debug\net6.0\AulaPOO.csproj.CoreCompileInputs.cache
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\Conteudo\AulaPOO\bin\Debug\net6.0\AulaPOO.exe
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\Conteudo\AulaPOO\bin\Debug\net6.0\AulaPOO.deps.json
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\Conteudo\AulaPOO\bin\Debug\net6.0\AulaPOO.runtimeconfig.json
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\Conteudo\AulaPOO\bin\Debug\net6.0\AulaPOO.dll
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\Conteudo\AulaPOO\bin\Debug\net6.0\AulaPOO.pdb
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\Conteudo\AulaPOO\obj\Debug\net6.0\AulaPOO.dll
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\Conteudo\AulaPOO\obj\Debug\net6.0\refint\AulaPOO.dll
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\Conteudo\AulaPOO\obj\Debug\net6.0\AulaPOO.pdb
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\Conteudo\AulaPOO\obj\Debug\net6.0\AulaPOO.genruntimeconfig.cache
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\Conteudo\AulaPOO\obj\Debug\net6.0\ref\AulaPOO.dll
