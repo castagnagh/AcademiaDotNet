@@ -1,0 +1,14 @@
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\Exercicios\Lista01_ExerciciosSequenciais\bin\Debug\net6.0\ExerciciosSequenciais.exe
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\Exercicios\Lista01_ExerciciosSequenciais\bin\Debug\net6.0\ExerciciosSequenciais.deps.json
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\Exercicios\Lista01_ExerciciosSequenciais\bin\Debug\net6.0\ExerciciosSequenciais.runtimeconfig.json
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\Exercicios\Lista01_ExerciciosSequenciais\bin\Debug\net6.0\ExerciciosSequenciais.dll
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\Exercicios\Lista01_ExerciciosSequenciais\bin\Debug\net6.0\ExerciciosSequenciais.pdb
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\Exercicios\Lista01_ExerciciosSequenciais\obj\Debug\net6.0\ExerciciosSequenciais.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\Exercicios\Lista01_ExerciciosSequenciais\obj\Debug\net6.0\ExerciciosSequenciais.AssemblyInfoInputs.cache
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\Exercicios\Lista01_ExerciciosSequenciais\obj\Debug\net6.0\ExerciciosSequenciais.AssemblyInfo.cs
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\Exercicios\Lista01_ExerciciosSequenciais\obj\Debug\net6.0\ExerciciosSequenciais.csproj.CoreCompileInputs.cache
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\Exercicios\Lista01_ExerciciosSequenciais\obj\Debug\net6.0\ExerciciosSequenciais.dll
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\Exercicios\Lista01_ExerciciosSequenciais\obj\Debug\net6.0\refint\ExerciciosSequenciais.dll
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\Exercicios\Lista01_ExerciciosSequenciais\obj\Debug\net6.0\ExerciciosSequenciais.pdb
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\Exercicios\Lista01_ExerciciosSequenciais\obj\Debug\net6.0\ExerciciosSequenciais.genruntimeconfig.cache
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\Exercicios\Lista01_ExerciciosSequenciais\obj\Debug\net6.0\ref\ExerciciosSequenciais.dll
