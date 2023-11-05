@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 3</title>
+    
+</head>
+
+<body>
+    <input type="radio" name="color" value="vermelho" id="vermelho" /> Vermelho </br>
+    <input type="radio" name="color" value="verde" id="verde" /> Verde </br>
+    <input type="radio" name="color" value="azul" id="azul" /> Azul </br>
+    <input type="radio" name="color" value="amarelo" id="amarelo" /> Amarelo </br>
+    <script>
+
+        //material utilizado para a resolução do exercicio
+        //https://www.w3schools.com/js/js_htmldom_eventlistener.asp#:~:text=The%20addEventListener()%20method%20attaches%20an%20event%20handler%20to%20an,i.e%20two%20%22click%22%20events.
+        let radioVermelho = document.getElementById("vermelho")
+        let radioVerde = document.getElementById("verde")
+        let radioAzul = document.getElementById("azul")
+        let radioAmarelo = document.getElementById("amarelo")
+
+        radioVermelho.addEventListener("click", mudarVermelho)
+        radioVerde.addEventListener("click", mudarVerde)
+        radioAzul.addEventListener("click", mudarAzul)
+        radioAmarelo.addEventListener("click", mudarAmarelo)
+
+        function mudarVermelho() {
+            let fundo = document.body
+            fundo.style.backgroundColor = "red"
+        }
+
+        function mudarVerde() {
+            let fundo = document.body
+            fundo.style.backgroundColor = "green"
+        }
+        function mudarAzul() {
+            let fundo = document.body
+            fundo.style.backgroundColor = "blue"
+        }
+        function mudarAmarelo() {
+            let fundo = document.body
+            fundo.style.backgroundColor = "yellow"
+        }
+
+    </script>
+</body>
+
+</html>

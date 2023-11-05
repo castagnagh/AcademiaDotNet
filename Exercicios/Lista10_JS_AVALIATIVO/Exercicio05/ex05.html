@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 5</title>
+
+</head>
+
+<body>
+    <input type="checkbox" name="check" id="check1"> JS
+    <input type="checkbox" name="check" id="check2"> É
+    <input type="checkbox" name="check" id="check3"> Frustante
+    <input type="checkbox" name="check" id="check4"> Mas
+    <input type="checkbox" name="check" id="check5"> É legal :D
+    <button type="button" id="botao" disabled>Desabilitado</button>
+    <script>
+
+        //materiais de estudos:
+        //https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_checkbox_order
+        //https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#checked
+        
+        //https://www.w3schools.com/jsref/prop_pushbutton_disabled.asp
+
+        let botao = document.getElementById("botao")
+        let checks = document.getElementsByName("check")
+        let cont = 0;
+
+
+        function verificarCheckBox() {
+            cont = 0;
+            for (let i = 0; i <= checks.length; i++) {
+                if (checks[i].checked) {
+                    cont++;
+                }
+                if (cont > 2) {
+                    botao.disabled = false;
+                    botao.textContent = "Habilitado"
+                } else {
+                    botao.disabled = true;
+                    botao.textContent = "Desabilitado"
+                }
+            }
+
+        }
+        for (let i = 0; checks.length; i++) {
+            checks[i].addEventListener("click", verificarCheckBox);
+        }
+
+    </script>
+</body>
+
+</html>

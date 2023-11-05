@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 4</title>
+    
+</head>
+
+<body>
+    <p id="texto-oculto">Olá mundo! Bem vindo ao JavaScript</p>
+    <button type="button" id="botao">Ocultar ou Mostrar</button>
+    <script>
+
+    //material utilizado para esse exercicio:
+    //https://www.w3schools.com/js/tryit.asp?filename=tryjs_visibility
+        
+        let botao = document.getElementById("botao")
+        let textoParagrafo = document.getElementById("texto-oculto")
+
+        botao.addEventListener("click", magica)
+
+        function magica() {
+            if (textoParagrafo.style.visibility === "visible") {
+                textoParagrafo.style.visibility = "hidden";
+            } else {
+                textoParagrafo.style.visibility = "visible";
+            }
+        }
+
+    </script>
+</body>
+
+</html>

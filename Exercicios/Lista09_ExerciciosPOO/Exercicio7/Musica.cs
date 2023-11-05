@@ -8,11 +8,9 @@ namespace Exercicio7
 {
     internal class Musica
     {
-        static List<Musica> listaMusica = new List<Musica>();
-
-        public string Nome { get; set; }
-        public string Cantor {get; set;}
-        public string Gravadora { get; set;}
+        public string Nome { get; }
+        public string Cantor { get; }
+        public string Gravadora { get; }
 
         public Musica(string nome, string cantor, string gravadora)
         {

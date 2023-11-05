@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 1</title>
+    <script>
+        //utilizei "document.body" encontrado na documentação abaixo:
+        // https://developer.mozilla.org/pt-BR/docs/Web/API/Document/body
+        
+        
+        function mudarVermelho(){
+            let fundo = document.body
+            fundo.style.backgroundColor = "red"
+        }
+        function mudarVerde(){
+            let fundo = document.body
+            fundo.style.backgroundColor = "green"
+        }
+        function mudarAzul(){
+            let fundo = document.body
+            fundo.style.backgroundColor = "blue"
+        }
+        function mudarAmarelo(){
+            let fundo = document.body
+            fundo.style.backgroundColor = "yellow"
+        }
+        
+    </script>
+</head>
+<body>
+    <form>
+        <button type="button" id="vermelho" onclick="mudarVermelho();">Vermelho</button>
+        <button type="button" id="verde" onclick="mudarVerde();">Verde</button>
+        <button type="button" id="azul" onclick="mudarAzul();">Azul</button>
+        <button type="button" id="amarelo" onclick="mudarAmarelo();">Amarelo</button>
+    </form>
+</body>
+</html>

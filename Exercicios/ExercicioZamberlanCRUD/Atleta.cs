@@ -6,15 +6,15 @@ using System.Threading.Tasks;
 
 namespace ExercicioZamberlanCRUD
 {
-    internal class Atleta : Pessoa
+    public class Atleta : Pessoa
     {
-        public string PosicaoQuadra {  get; set; }
-        public string Categoria { get; set; }
+        public string PosicaoQuadra { set; get; }
+        public string Categoria { set; get; }
 
-        public Atleta(string posicaoQuadra, string categoria) : base(nome, email, dataNascimento)
+        public Atleta(string nome, string email, DateOnly data, string posicao, string categoria) : base(nome, email, data)
         {
-            PosicaoQuadra = posicaoQuadra;
-            Categoria = categoria;
+            this.PosicaoQuadra = posicao;
+            this.Categoria = categoria;
         }
 
     }

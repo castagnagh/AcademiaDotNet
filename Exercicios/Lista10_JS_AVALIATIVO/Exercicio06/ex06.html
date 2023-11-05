@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 6</title>
+</head>
+
+<body>
+    <p id="paragrafo" style="font-size: 16px;">Paragráfo a ser mudado</p>
+    <div>
+        <p>Mudar cor da letra! A letra está <span id="cor-letra">PRETA</span></p>
+        <button type="button" id="button-letra">Preto para Branco</button>
+        <!-- <button type="button">Preto para Branco</button> -->
+        <p>Mudar cor de fundo! O fundo está <span id="cor-fundo"> BRANCO</span></p>
+        <button type="button" id="button-fundo">Branco para preto</button>
+        <!-- <button type="button">Preto para branco</button> -->
+    </div>
+
+    <div>
+        <p>Aumentar ou Diminuir Fonte</p>
+        <button type="button" id="button-menos"> - </button>
+        <button type="button" id="button-mais"> + </button>
+    </div>
+
+    <div>
+        <p>Todas em minuscula ou MAIUSCULA</p>
+        <button type="button" id="button-minuscula"> minuscula </button>
+        <button type="button" id="button-maiuscula"> MAIUSCULA </button>
+    </div>
+    <div>
+
+    </div>
+    <script>
+
+        //Material utilizado:
+        //https://www.w3schools.com/jsref/dom_obj_style.asp
+
+        //EXERCICIO 6 - MUDAR COR DA LETRA E DO FUNDO
+
+        let paragrafo = document.getElementById("paragrafo")
+        let buttonLetra = document.getElementById("button-letra")
+        let buttonFundo = document.getElementById("button-fundo")
+
+        let buttonMenos = document.getElementById("button-menos")
+        let buttonMais = document.getElementById("button-mais")
+        
+        let buttonMaiuscula = document.getElementById("button-maiuscula")
+        let buttonMinuscula = document.getElementById("button-minuscula")
+
+        let corLetra = document.getElementById("cor-letra")
+        let corFundo = document.getElementById("cor-fundo")
+
+        function mudarCorLetra() {
+            if (paragrafo.style.color === "white") {
+                paragrafo.style.color = "black"
+                buttonLetra.textContent = "Preto para Branco"
+                corLetra.textContent = "PRETA"
+            } else {
+                paragrafo.style.color = "white"
+                buttonLetra.textContent = "Branco para Preto"
+                corLetra.textContent = "BRANCA"
+            }
+        }
+
+        function mudarCorFundo() {
+            if (paragrafo.style.backgroundColor === "black") {
+                paragrafo.style.backgroundColor = "white"
+                buttonFundo.textContent = "Branco para Preto"
+                corFundo.textContent = "BRANCO"
+            } else {
+                paragrafo.style.backgroundColor = "black"
+                buttonFundo.textContent = "Preto para Branco"
+                corFundo.textContent = "PRETO"
+            }
+        }
+        buttonLetra.addEventListener("click", mudarCorLetra)
+        buttonFundo.addEventListener("click", mudarCorFundo)
+        //EXERCICIO 7 - AUMENTAR E DIMINUIR FONTE
+
+        function diminuirFonte(){
+            let tamFonte = parseInt(paragrafo.style.fontSize)
+            tamFonte -= 1;
+            paragrafo.style.fontSize = tamFonte.toString() + "px"
+        }
+        function aumentarFonte(){
+            let tamFonte = parseInt(paragrafo.style.fontSize)
+            tamFonte += 1;
+            paragrafo.style.fontSize = tamFonte.toString() + "px"
+        }
+        buttonMenos.addEventListener("click", diminuirFonte)
+        buttonMais.addEventListener("click", aumentarFonte)
+
+        //EXERCICIO 8 - TEXTO EM MAIUSCULA E TEXTO EM MINUSCULA
+
+        function transformarMaiuscula(){
+            paragrafo.style.textTransform = "uppercase"
+        }
+
+        function transformarMinuscula(){
+            paragrafo.style.textTransform = "lowercase"
+        }
+
+        buttonMaiuscula.addEventListener("click", transformarMaiuscula)
+        buttonMinuscula.addEventListener("click", transformarMinuscula)
+
+    </script>
+</body>
+
+</html>

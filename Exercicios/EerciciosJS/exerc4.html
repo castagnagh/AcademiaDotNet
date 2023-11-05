@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 1</title>
+    <script>
+        
+        function exibirTexto(){
+            let num1 = parseInt(document.getElementById("num1").value)
+            let num2 = parseInt(document.getElementById("num2").value)
+            let button = document.getElementById("button")
+            let soma = num1 + num2;
+            if(soma % 2 == 0){
+                button.style.backgroundColor = "blue";
+            } else {
+                button.style.backgroundColor = "green";
+            }
+        }
+    </script>
+</head>
+<body>
+    <input type="number" id="num1" placeholder="Insira um numero"/>
+    <input type="number" id="num2" placeholder="Insira um numero"/>
+    <button id="button" type="button" onclick="exibirTexto();">Enviar</button>
+</body>
+</html>

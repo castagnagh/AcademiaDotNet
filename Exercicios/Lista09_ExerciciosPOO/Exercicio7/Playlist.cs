@@ -6,19 +6,34 @@ using System.Threading.Tasks;
 
 namespace Exercicio7
 {
-    internal class Playlist
+    internal class Playlist : Musica
     {
         private List<Musica> listaDeMusicas = new List<Musica>();
-        public string DonoPlaylist { get; set; }
+        private string donoPlaylist;
 
         public Playlist(string donoPlaylist)
         {
-            DonoPlaylist = donoPlaylist;
+            this.donoPlaylist = donoPlaylist;
         }
 
         public void AdicionarMusica(Musica musica)
         {
             listaDeMusicas.Add(musica);
         }
+
+        public string EscolherMusica()
+        {
+            if (listaDeMusicas.Count == 0)
+            {
+                return "Nenhuma música na playlist";
+            }
+
+            Random r = new Random();
+            int qtElementosLista = listaDeMusicas.Count;
+            int numSorteado = r.Next(0, qtElementosLista);
+            return listaDeMusicas[numSorteado].Nome;
+        }
     }
+
+
 }

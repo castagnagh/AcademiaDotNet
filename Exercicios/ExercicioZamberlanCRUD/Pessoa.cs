@@ -6,23 +6,90 @@ using System.Threading.Tasks;
 
 namespace ExercicioZamberlanCRUD
 {
-    internal class Pessoa
+    public class Pessoa
     {
-        public string Nome { get; set; }
-        public string Email { get; set; }
-        public DateOnly DataNascimento { get; set; }
+        public string Nome { set; get; }
+        public string Email { set; get; }
+        public DateOnly DataNascimento { set; get; }
 
-        public Pessoa(string nome, string email, DateOnly dataNascimento)
+        public Pessoa(string nome, string email, DateOnly data)
         {
-            this.nome = nome;
-            this.email = email;
-            this.dataNascimento = dataNascimento;
+            this.Nome = nome;
+            this.Email = email;
+            this.DataNascimento = data;
         }
 
+        //sobrecarga do construtor, um exemplo de polimorfismo
         public Pessoa(string nome, string email)
         {
-            Nome = nome;
-            Email = email;
+            this.Nome = nome;
+            this.Email = email;
+        }
+
+        public int idade()
+        {
+            //pegar a data atual, no mínimo o ano
+            //pegar o ano de nascimento
+            string[] vetor = this.DataNascimento.ToString().Split('/');
+            int anoNascimento = int.Parse(vetor[2]);
+            int anoAtual = DateTime.Now.Year;
+
+            //retornar o ano atual - ano de nascimento
+            return anoAtual - anoNascimento;
+        }
+
+        public string sobrenome()
+        {
+            string[] vetor = this.Nome.Split();
+            return vetor[vetor.Length - 1];
+        }
+
+        public static bool estaContidoAtleta(string email, List<Atleta> lista)
+        {
+            foreach (var atleta in lista)
+            {
+                if (email == atleta.Email)
+                {
+                    return true;
+                }
+            }
+            return false;
+        }
+
+        public static bool estaContidoTreinador(string email, List<Treinador> lista)
+        {
+            foreach (var atleta in lista)
+            {
+                if (email == atleta.Email)
+                {
+                    return true;
+                }
+            }
+            return false;
+        }
+
+        public static int pesquisaNomeEmailAtleta(string pesquisa, List<Atleta> lista)
+        {
+            for (int i = 0; i < lista.Count; i++)
+            {
+                if (pesquisa == lista[i].Email || lista[i].Nome.Contains(pesquisa))
+                {
+                    return i;
+                }
+            }
+            return -1;
+        }
+
+        public static int PesquisaNomeEmailTreinador(string pesquisa, List<Treinador> lista)
+        {
+            for (int i = 0; i < lista.Count; i++)
+            {
+                if (pesquisa == lista[i].Email || lista[i].Nome.Contains(pesquisa))
+                {
+                    return i;
+                }
+            }
+            return -1;
         }
     }
 }
