@@ -34,9 +34,11 @@
         function preencherSenha() {
             let senha = password.value;
             if (senha.length > 6 && senha.length < 10) {
+                mensagem.style.color = "#008000"
                 mensagem.textContent = "[OK] A senha deve possuir entre 6 e 10 caracteres"
             }
             else {
+                mensagem.style.color = "red"
                 mensagem.textContent = "[X] A senha deve possuir entre 6 e 10 caracteres"
             }
         }
@@ -47,28 +49,33 @@
 
 
             if (senha == repeteSenha) {
+                mensagem.style.color = "#008000"
                 mensagem.textContent = "As senhas são iguais"
 
             } else {
+                mensagem.style.color = "red"
                 mensagem.textContent = "As senhas não correspondem"
             }
         }
 
         function verificarCampos() {
             if (login.value.length === 0) {
-                mensagem.textContent = "Preencha o nome de usuário";
+                mensagem.style.color = "red"
+                mensagem.textContent = "Nome de usuário é obrigatório";
                 return false;
             }
             if (password.value !== passwordConfirm.value) {
+                mensagem.style.color = "red"
                 mensagem.textContent = "As senhas não são iguais"
                 return false;
             } else if (password.value.length < 6 || password.value.length > 10) {
-                    mensagem.textContent = "A senha não contém entre 6 e 10 caracteres";
-                    return false;
-                }
+                mensagem.style.color = "red"
+                mensagem.textContent = "A senha não contém entre 6 e 10 caracteres";
+                return false;
+            }
             return true;
         }
-        
+
 
         function limparMensagem() {
             mensagem.textContent = ""
