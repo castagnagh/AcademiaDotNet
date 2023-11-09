@@ -23,11 +23,26 @@ function pessoaSelecionada(){
     if(pessoaFisicaRadio.checked == true){
         fisicaCampos.hidden = false
         juridicaCampos.hidden = true
+        cnpjInput.value = null
     } else if(pessoaJuridicaRadio.checked === true){
         juridicaCampos.hidden = false
         fisicaCampos.hidden = true
+        cpfInput.value = null
+        dataNascimentoInput.value = null
+    }
+}
+
+function mascaraCPF(){
+
+    cpfInput.value = cpfInput.value.replace(/[^0-9]/g, '');
+
+    if(cpfInput.value.length == 3 || cpfInput.value.length == 7){
+        cpfInput.value += "."
+    } else if (cpfInput.value.length == 11){
+        cpfInput.value += "-"
     }
 }
 
 pessoaFisicaRadio.addEventListener("click", pessoaSelecionada)
 pessoaJuridicaRadio.addEventListener("click", pessoaSelecionada)
+cpfInput.addEventListener("keyup", mascaraCPF)
