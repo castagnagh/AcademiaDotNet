@@ -1,0 +1,16 @@
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\Conteudo\WindowsForm\WinForms1\bin\Debug\net6.0-windows\WinForms1.exe
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\Conteudo\WindowsForm\WinForms1\bin\Debug\net6.0-windows\WinForms1.deps.json
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\Conteudo\WindowsForm\WinForms1\bin\Debug\net6.0-windows\WinForms1.runtimeconfig.json
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\Conteudo\WindowsForm\WinForms1\bin\Debug\net6.0-windows\WinForms1.dll
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\Conteudo\WindowsForm\WinForms1\bin\Debug\net6.0-windows\WinForms1.pdb
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\Conteudo\WindowsForm\WinForms1\obj\Debug\net6.0-windows\WinForms1.Form1.resources
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\Conteudo\WindowsForm\WinForms1\obj\Debug\net6.0-windows\WinForms1.csproj.GenerateResource.cache
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\Conteudo\WindowsForm\WinForms1\obj\Debug\net6.0-windows\WinForms1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\Conteudo\WindowsForm\WinForms1\obj\Debug\net6.0-windows\WinForms1.AssemblyInfoInputs.cache
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\Conteudo\WindowsForm\WinForms1\obj\Debug\net6.0-windows\WinForms1.AssemblyInfo.cs
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\Conteudo\WindowsForm\WinForms1\obj\Debug\net6.0-windows\WinForms1.csproj.CoreCompileInputs.cache
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\Conteudo\WindowsForm\WinForms1\obj\Debug\net6.0-windows\WinForms1.dll
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\Conteudo\WindowsForm\WinForms1\obj\Debug\net6.0-windows\refint\WinForms1.dll
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\Conteudo\WindowsForm\WinForms1\obj\Debug\net6.0-windows\WinForms1.pdb
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\Conteudo\WindowsForm\WinForms1\obj\Debug\net6.0-windows\WinForms1.genruntimeconfig.cache
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\Conteudo\WindowsForm\WinForms1\obj\Debug\net6.0-windows\ref\WinForms1.dll
