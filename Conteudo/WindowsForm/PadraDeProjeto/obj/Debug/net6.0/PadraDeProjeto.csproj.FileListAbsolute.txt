@@ -1,0 +1,14 @@
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\Conteudo\WindowsForm\PadraDeProjeto\obj\Debug\net6.0\PadraDeProjeto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\Conteudo\WindowsForm\PadraDeProjeto\obj\Debug\net6.0\PadraDeProjeto.AssemblyInfoInputs.cache
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\Conteudo\WindowsForm\PadraDeProjeto\obj\Debug\net6.0\PadraDeProjeto.AssemblyInfo.cs
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\Conteudo\WindowsForm\PadraDeProjeto\obj\Debug\net6.0\PadraDeProjeto.csproj.CoreCompileInputs.cache
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\Conteudo\WindowsForm\PadraDeProjeto\bin\Debug\net6.0\PadraDeProjeto.exe
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\Conteudo\WindowsForm\PadraDeProjeto\bin\Debug\net6.0\PadraDeProjeto.deps.json
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\Conteudo\WindowsForm\PadraDeProjeto\bin\Debug\net6.0\PadraDeProjeto.runtimeconfig.json
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\Conteudo\WindowsForm\PadraDeProjeto\bin\Debug\net6.0\PadraDeProjeto.dll
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\Conteudo\WindowsForm\PadraDeProjeto\bin\Debug\net6.0\PadraDeProjeto.pdb
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\Conteudo\WindowsForm\PadraDeProjeto\obj\Debug\net6.0\PadraDeProjeto.dll
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\Conteudo\WindowsForm\PadraDeProjeto\obj\Debug\net6.0\refint\PadraDeProjeto.dll
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\Conteudo\WindowsForm\PadraDeProjeto\obj\Debug\net6.0\PadraDeProjeto.pdb
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\Conteudo\WindowsForm\PadraDeProjeto\obj\Debug\net6.0\PadraDeProjeto.genruntimeconfig.cache
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\Conteudo\WindowsForm\PadraDeProjeto\obj\Debug\net6.0\ref\PadraDeProjeto.dll
