@@ -19,7 +19,7 @@ namespace MiniERP
             cn = new SqlConnection(conec);
         }
 
-        public SqlConnection abrirConexao()
+        public SqlConnection AbrirConexao()
         {
             try
             {
@@ -33,7 +33,7 @@ namespace MiniERP
             }
         }
 
-        public void fecharConexao()
+        public void FecharConexao()
         {
             try
             {
@@ -45,11 +45,11 @@ namespace MiniERP
             }
         }
 
-        public DataTable executaConsulta(string sql)
+        public DataTable ExecutaConsulta(string sql)
         {
             try
             {
-                abrirConexao();
+                AbrirConexao();
                 SqlCommand sqlCommand = new SqlCommand(sql, cn);
                 sqlCommand.ExecuteNonQuery();
 
@@ -65,7 +65,7 @@ namespace MiniERP
             }
             finally
             {
-                fecharConexao();
+                FecharConexao();
             }
         }
     }

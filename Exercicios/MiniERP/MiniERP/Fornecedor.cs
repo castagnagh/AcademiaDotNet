@@ -5,6 +5,7 @@ using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Data.SqlTypes;
 
 namespace MiniERP
 {
@@ -21,7 +22,7 @@ namespace MiniERP
         public bool Gravar()
         {
             Banco bd = new Banco();
-            SqlConnection cn = bd.abrirConexao();
+            SqlConnection cn = bd.AbrirConexao();
 
             SqlTransaction tran = cn.BeginTransaction();
 
@@ -49,7 +50,7 @@ namespace MiniERP
             }
             finally
             {
-                bd.fecharConexao();
+                bd.FecharConexao();
             }
         }
 
@@ -59,14 +60,14 @@ namespace MiniERP
 
             try
             {
-                SqlConnection cn = bd.abrirConexao();
+                SqlConnection cn = bd.AbrirConexao();
 
                 SqlCommand sqlCommand = new SqlCommand();
                 sqlCommand.Connection = cn;
                 sqlCommand.CommandType = System.Data.CommandType.Text;
                 sqlCommand.CommandText = "select * from fornecedores";
 
-                sqlCommand.ExecuteNonQuery();
+                //sqlCommand.ExecuteNonQuery();
 
                 DataTable dt = new DataTable();
                 SqlDataAdapter adapter = new SqlDataAdapter(sqlCommand);
@@ -81,7 +82,41 @@ namespace MiniERP
             }
             finally
             {
-                bd.fecharConexao();
+                bd.FecharConexao();
+            }
+        }
+
+        public DataTable BuscaFornecedoresByNome()
+        {
+            Banco bd = new Banco();
+
+            try
+            {
+                SqlConnection cn = bd.AbrirConexao();
+
+                SqlCommand sqlCommand = new SqlCommand();
+                sqlCommand.Connection = cn;
+                sqlCommand.CommandType = System.Data.CommandType.Text;
+                sqlCommand.CommandText = "select * from fornecedores where nome like @nome";
+                sqlCommand.Parameters.Add("@nome", System.Data.SqlDbType.VarChar);
+                sqlCommand.Parameters[0].Value = "%" + Nome + "%";
+                
+                //sqlCommand.ExecuteNonQuery();
+
+                DataTable dt = new DataTable();
+                SqlDataAdapter adapter = new SqlDataAdapter(sqlCommand);
+
+                adapter.Fill(dt);
+
+                return dt;
+            }
+            catch (Exception ex)
+            {
+                return null;
+            }
+            finally
+            {
+                bd.FecharConexao();
             }
         }
     }

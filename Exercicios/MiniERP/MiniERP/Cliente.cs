@@ -21,7 +21,7 @@ namespace MiniERP
         public bool Gravar()
         {
             Banco bd = new Banco();
-            SqlConnection cn = bd.abrirConexao();
+            SqlConnection cn = bd.AbrirConexao();
 
             SqlTransaction tran = cn.BeginTransaction();
 
@@ -49,7 +49,7 @@ namespace MiniERP
             }
             finally
             {
-                bd.fecharConexao();
+                bd.FecharConexao();
             }
         }
 
@@ -59,7 +59,7 @@ namespace MiniERP
 
             try
             {
-                SqlConnection cn = bd.abrirConexao();
+                SqlConnection cn = bd.AbrirConexao();
 
                 SqlCommand sqlCommand = new SqlCommand();
                 sqlCommand.Connection = cn;
@@ -81,7 +81,7 @@ namespace MiniERP
             }
             finally
             {
-                bd.fecharConexao();
+                bd.FecharConexao();
             }
         }
     }

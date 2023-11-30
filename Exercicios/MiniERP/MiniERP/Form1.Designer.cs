@@ -48,6 +48,7 @@
             label4 = new Label();
             label5 = new Label();
             tabPageFornecedores = new TabPage();
+            dataGridViewFornecedores = new DataGridView();
             label10 = new Label();
             label9 = new Label();
             button5 = new Button();
@@ -58,31 +59,34 @@
             label7 = new Label();
             label8 = new Label();
             tabPageProdutos = new TabPage();
+            dataGridViewProdutos = new DataGridView();
             label16 = new Label();
             panel3 = new Panel();
-            textBox9 = new TextBox();
+            button4 = new Button();
+            textBoxIdFornecedor = new TextBox();
+            textBoxFornecedor = new TextBox();
+            label17 = new Label();
             button6 = new Button();
-            textBox8 = new TextBox();
-            textBox7 = new TextBox();
-            textBox6 = new TextBox();
+            textBoxEstoqueProduto = new TextBox();
+            textBoxPrecoProduto = new TextBox();
+            textBoxDescrProduto = new TextBox();
             label14 = new Label();
             label13 = new Label();
             label12 = new Label();
             label11 = new Label();
             button7 = new Button();
-            listView4 = new ListView();
             label15 = new Label();
-            dataGridViewFornecedores = new DataGridView();
             tabControlProdutos.SuspendLayout();
             tabPageCompras.SuspendLayout();
             tabPageClientes.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dataGridViewClientes).BeginInit();
             panel1.SuspendLayout();
             tabPageFornecedores.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)dataGridViewFornecedores).BeginInit();
             panel2.SuspendLayout();
             tabPageProdutos.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)dataGridViewProdutos).BeginInit();
             panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)dataGridViewFornecedores).BeginInit();
             SuspendLayout();
             // 
             // tabControlProdutos
@@ -181,10 +185,17 @@
             // 
             // dataGridViewClientes
             // 
-            dataGridViewClientes.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridViewClientes.AllowUserToAddRows = false;
+            dataGridViewClientes.AllowUserToDeleteRows = false;
+            dataGridViewClientes.Cursor = Cursors.Hand;
+            dataGridViewClientes.EditMode = DataGridViewEditMode.EditProgrammatically;
             dataGridViewClientes.Location = new Point(90, 213);
+            dataGridViewClientes.MultiSelect = false;
             dataGridViewClientes.Name = "dataGridViewClientes";
+            dataGridViewClientes.ReadOnly = true;
+            dataGridViewClientes.RowHeadersWidthSizeMode = DataGridViewRowHeadersWidthSizeMode.AutoSizeToFirstHeader;
             dataGridViewClientes.RowTemplate.Height = 25;
+            dataGridViewClientes.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
             dataGridViewClientes.Size = new Size(776, 233);
             dataGridViewClientes.TabIndex = 7;
             // 
@@ -286,6 +297,22 @@
             tabPageFornecedores.Text = "Fornecedores";
             tabPageFornecedores.UseVisualStyleBackColor = true;
             // 
+            // dataGridViewFornecedores
+            // 
+            dataGridViewFornecedores.AllowUserToAddRows = false;
+            dataGridViewFornecedores.AllowUserToDeleteRows = false;
+            dataGridViewFornecedores.Cursor = Cursors.Hand;
+            dataGridViewFornecedores.EditMode = DataGridViewEditMode.EditProgrammatically;
+            dataGridViewFornecedores.Location = new Point(88, 209);
+            dataGridViewFornecedores.MultiSelect = false;
+            dataGridViewFornecedores.Name = "dataGridViewFornecedores";
+            dataGridViewFornecedores.ReadOnly = true;
+            dataGridViewFornecedores.RowHeadersWidthSizeMode = DataGridViewRowHeadersWidthSizeMode.AutoSizeToFirstHeader;
+            dataGridViewFornecedores.RowTemplate.Height = 25;
+            dataGridViewFornecedores.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
+            dataGridViewFornecedores.Size = new Size(766, 227);
+            dataGridViewFornecedores.TabIndex = 5;
+            // 
             // label10
             // 
             label10.AutoSize = true;
@@ -372,10 +399,10 @@
             // 
             // tabPageProdutos
             // 
+            tabPageProdutos.Controls.Add(dataGridViewProdutos);
             tabPageProdutos.Controls.Add(label16);
             tabPageProdutos.Controls.Add(panel3);
             tabPageProdutos.Controls.Add(button7);
-            tabPageProdutos.Controls.Add(listView4);
             tabPageProdutos.Controls.Add(label15);
             tabPageProdutos.Location = new Point(4, 24);
             tabPageProdutos.Name = "tabPageProdutos";
@@ -384,24 +411,43 @@
             tabPageProdutos.Text = "Produtos";
             tabPageProdutos.UseVisualStyleBackColor = true;
             // 
+            // dataGridViewProdutos
+            // 
+            dataGridViewProdutos.AllowUserToAddRows = false;
+            dataGridViewProdutos.AllowUserToDeleteRows = false;
+            dataGridViewProdutos.Cursor = Cursors.Hand;
+            dataGridViewProdutos.EditMode = DataGridViewEditMode.EditProgrammatically;
+            dataGridViewProdutos.Location = new Point(48, 244);
+            dataGridViewProdutos.MultiSelect = false;
+            dataGridViewProdutos.Name = "dataGridViewProdutos";
+            dataGridViewProdutos.ReadOnly = true;
+            dataGridViewProdutos.RowHeadersWidthSizeMode = DataGridViewRowHeadersWidthSizeMode.AutoSizeToFirstHeader;
+            dataGridViewProdutos.RowTemplate.Height = 25;
+            dataGridViewProdutos.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
+            dataGridViewProdutos.Size = new Size(814, 186);
+            dataGridViewProdutos.TabIndex = 14;
+            // 
             // label16
             // 
             label16.AutoSize = true;
             label16.Location = new Point(48, 16);
             label16.Name = "label16";
-            label16.Size = new Size(172, 15);
+            label16.Size = new Size(157, 15);
             label16.TabIndex = 13;
-            label16.Text = "Cadastrar um novo fornecedor:";
+            label16.Text = "Cadastrar um novo produto:";
             // 
             // panel3
             // 
             panel3.BackColor = Color.WhiteSmoke;
             panel3.BorderStyle = BorderStyle.FixedSingle;
-            panel3.Controls.Add(textBox9);
+            panel3.Controls.Add(button4);
+            panel3.Controls.Add(textBoxIdFornecedor);
+            panel3.Controls.Add(textBoxFornecedor);
+            panel3.Controls.Add(label17);
             panel3.Controls.Add(button6);
-            panel3.Controls.Add(textBox8);
-            panel3.Controls.Add(textBox7);
-            panel3.Controls.Add(textBox6);
+            panel3.Controls.Add(textBoxEstoqueProduto);
+            panel3.Controls.Add(textBoxPrecoProduto);
+            panel3.Controls.Add(textBoxDescrProduto);
             panel3.Controls.Add(label14);
             panel3.Controls.Add(label13);
             panel3.Controls.Add(label12);
@@ -411,47 +457,74 @@
             panel3.Size = new Size(814, 165);
             panel3.TabIndex = 12;
             // 
-            // textBox9
+            // button4
             // 
-            textBox9.Location = new Point(33, 98);
-            textBox9.Name = "textBox9";
-            textBox9.Size = new Size(269, 23);
-            textBox9.TabIndex = 8;
+            button4.Location = new Point(699, 128);
+            button4.Name = "button4";
+            button4.Size = new Size(75, 23);
+            button4.TabIndex = 17;
+            button4.Text = "Cadastrar";
+            button4.UseVisualStyleBackColor = true;
+            button4.Click += buttonCadastrarProduto_Click;
+            // 
+            // textBoxIdFornecedor
+            // 
+            textBoxIdFornecedor.Location = new Point(33, 100);
+            textBoxIdFornecedor.Name = "textBoxIdFornecedor";
+            textBoxIdFornecedor.Size = new Size(104, 23);
+            textBoxIdFornecedor.TabIndex = 16;
+            // 
+            // textBoxFornecedor
+            // 
+            textBoxFornecedor.Location = new Point(163, 100);
+            textBoxFornecedor.Name = "textBoxFornecedor";
+            textBoxFornecedor.Size = new Size(269, 23);
+            textBoxFornecedor.TabIndex = 8;
+            // 
+            // label17
+            // 
+            label17.AutoSize = true;
+            label17.Location = new Point(33, 82);
+            label17.Name = "label17";
+            label17.Size = new Size(100, 15);
+            label17.TabIndex = 15;
+            label17.Text = "Id do Fornecedor:";
             // 
             // button6
             // 
-            button6.Location = new Point(227, 127);
+            button6.Location = new Point(438, 100);
             button6.Name = "button6";
             button6.Size = new Size(75, 23);
             button6.TabIndex = 7;
             button6.Text = "Pesquisar";
             button6.UseVisualStyleBackColor = true;
+            button6.Click += buttonAbrirFornecedores_Click;
             // 
-            // textBox8
+            // textBoxEstoqueProduto
             // 
-            textBox8.Location = new Point(678, 43);
-            textBox8.Name = "textBox8";
-            textBox8.Size = new Size(99, 23);
-            textBox8.TabIndex = 6;
+            textBoxEstoqueProduto.Location = new Point(675, 43);
+            textBoxEstoqueProduto.Name = "textBoxEstoqueProduto";
+            textBoxEstoqueProduto.Size = new Size(99, 23);
+            textBoxEstoqueProduto.TabIndex = 6;
             // 
-            // textBox7
+            // textBoxPrecoProduto
             // 
-            textBox7.Location = new Point(346, 43);
-            textBox7.Name = "textBox7";
-            textBox7.Size = new Size(132, 23);
-            textBox7.TabIndex = 5;
+            textBoxPrecoProduto.Location = new Point(483, 43);
+            textBoxPrecoProduto.Name = "textBoxPrecoProduto";
+            textBoxPrecoProduto.Size = new Size(132, 23);
+            textBoxPrecoProduto.TabIndex = 5;
             // 
-            // textBox6
+            // textBoxDescrProduto
             // 
-            textBox6.Location = new Point(33, 43);
-            textBox6.Name = "textBox6";
-            textBox6.Size = new Size(269, 23);
-            textBox6.TabIndex = 4;
+            textBoxDescrProduto.Location = new Point(33, 43);
+            textBoxDescrProduto.Name = "textBoxDescrProduto";
+            textBoxDescrProduto.Size = new Size(399, 23);
+            textBoxDescrProduto.TabIndex = 4;
             // 
             // label14
             // 
             label14.AutoSize = true;
-            label14.Location = new Point(33, 80);
+            label14.Location = new Point(163, 82);
             label14.Name = "label14";
             label14.Size = new Size(70, 15);
             label14.TabIndex = 3;
@@ -460,7 +533,7 @@
             // label13
             // 
             label13.AutoSize = true;
-            label13.Location = new Point(678, 25);
+            label13.Location = new Point(675, 25);
             label13.Name = "label13";
             label13.Size = new Size(52, 15);
             label13.TabIndex = 2;
@@ -469,7 +542,7 @@
             // label12
             // 
             label12.AutoSize = true;
-            label12.Location = new Point(346, 25);
+            label12.Location = new Point(483, 25);
             label12.Name = "label12";
             label12.Size = new Size(40, 15);
             label12.TabIndex = 1;
@@ -493,31 +566,14 @@
             button7.Text = "Excluir";
             button7.UseVisualStyleBackColor = true;
             // 
-            // listView4
-            // 
-            listView4.Location = new Point(48, 244);
-            listView4.Name = "listView4";
-            listView4.Size = new Size(814, 192);
-            listView4.TabIndex = 10;
-            listView4.UseCompatibleStateImageBehavior = false;
-            // 
             // label15
             // 
             label15.AutoSize = true;
             label15.Location = new Point(48, 226);
             label15.Name = "label15";
-            label15.Size = new Size(147, 15);
+            label15.Size = new Size(124, 15);
             label15.TabIndex = 9;
-            label15.Text = "Fornecedores cadastrados:";
-            // 
-            // dataGridViewFornecedores
-            // 
-            dataGridViewFornecedores.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewFornecedores.Location = new Point(88, 209);
-            dataGridViewFornecedores.Name = "dataGridViewFornecedores";
-            dataGridViewFornecedores.RowTemplate.Height = 25;
-            dataGridViewFornecedores.Size = new Size(766, 227);
-            dataGridViewFornecedores.TabIndex = 5;
+            label15.Text = "Produtos cadastrados:";
             // 
             // Form1
             // 
@@ -537,13 +593,14 @@
             panel1.PerformLayout();
             tabPageFornecedores.ResumeLayout(false);
             tabPageFornecedores.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)dataGridViewFornecedores).EndInit();
             panel2.ResumeLayout(false);
             panel2.PerformLayout();
             tabPageProdutos.ResumeLayout(false);
             tabPageProdutos.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)dataGridViewProdutos).EndInit();
             panel3.ResumeLayout(false);
             panel3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)dataGridViewFornecedores).EndInit();
             ResumeLayout(false);
         }
 
@@ -577,17 +634,16 @@
         private Label label9;
         private Button button5;
         private Button buttonCadastrarFornecedor;
-        private TextBox textBox7;
-        private TextBox textBox6;
+        private TextBox textBoxPrecoProduto;
+        private TextBox textBoxDescrProduto;
         private Label label14;
         private Label label13;
         private Label label12;
         private Label label11;
-        private TextBox textBox9;
+        private TextBox textBoxFornecedor;
         private Button button6;
-        private TextBox textBox8;
+        private TextBox textBoxEstoqueProduto;
         private Button button7;
-        private ListView listView4;
         private Label label15;
         private Label label16;
         private Panel panel3;
@@ -595,5 +651,9 @@
         private MaskedTextBox maskedTextBoxCpf;
         private MaskedTextBox maskedTextBoxCnpj;
         private DataGridView dataGridViewFornecedores;
+        private DataGridView dataGridViewProdutos;
+        private TextBox textBoxIdFornecedor;
+        private Label label17;
+        private Button button4;
     }
 }
