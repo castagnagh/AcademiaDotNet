@@ -85,7 +85,48 @@ namespace MiniERP
                 SqlCommand sqlCommand = new SqlCommand();
                 sqlCommand.Connection = cn;
                 sqlCommand.CommandType = System.Data.CommandType.Text;
-                sqlCommand.CommandText = "select * from produtos";
+                sqlCommand.CommandText = 
+                    "select produtos.id as Cod, " +
+                    "produtos.nome as Descrição, " +
+                    "produtos.preco as Preço, " +
+                    "produtos.qnt_estoque as 'Em Estoque', " +
+                    "fornecedores.nome as Fornecedor " +
+                    "from produtos\r\n" +
+                    "inner join fornecedores on produtos.fk_fornecedor = fornecedores.id";
+
+                sqlCommand.ExecuteNonQuery();
+
+                DataTable dt = new DataTable();
+                SqlDataAdapter adapter = new SqlDataAdapter(sqlCommand);
+
+                adapter.Fill(dt);
+
+                return dt;
+            }
+            catch (Exception ex)
+            {
+                return null;
+            }
+            finally
+            {
+                bd.FecharConexao();
+            }
+        }
+
+        public DataTable BuscaItens()
+        {
+            Banco bd = new Banco();
+
+            try
+            {
+                SqlConnection cn = bd.AbrirConexao();
+
+                SqlCommand sqlCommand = new SqlCommand();
+                sqlCommand.Connection = cn;
+                sqlCommand.CommandType = System.Data.CommandType.Text;
+                sqlCommand.CommandText =
+                    "select id as Cod, nome as Produto, preco as Preço " +
+                    "from produtos";
 
                 sqlCommand.ExecuteNonQuery();
 

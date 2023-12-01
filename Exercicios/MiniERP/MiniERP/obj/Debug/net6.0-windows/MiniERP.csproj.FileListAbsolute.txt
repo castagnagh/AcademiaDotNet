@@ -23,3 +23,5 @@ C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\Exercicios\MiniERP\MiniER
 C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\Exercicios\MiniERP\MiniERP\obj\Debug\net6.0-windows\MiniERP.csproj.AssemblyReference.cache
 C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\Exercicios\MiniERP\MiniERP\obj\Debug\net6.0-windows\MiniERP.csproj.CopyComplete
 C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\Exercicios\MiniERP\MiniERP\obj\Debug\net6.0-windows\MiniERP.BuscarFornecedores.resources
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\Exercicios\MiniERP\MiniERP\obj\Debug\net6.0-windows\MiniERP.BuscarCliente.resources
+C:\Users\GabrielCastagna\Documents\_git\AcademiaDotNet\Exercicios\MiniERP\MiniERP\obj\Debug\net6.0-windows\MiniERP.Carrinho.resources

@@ -84,5 +84,39 @@ namespace MiniERP
                 bd.FecharConexao();
             }
         }
+
+        public DataTable BuscaClientesByNome()
+        {
+            Banco bd = new Banco();
+
+            try
+            {
+                SqlConnection cn = bd.AbrirConexao();
+
+                SqlCommand sqlCommand = new SqlCommand();
+                sqlCommand.Connection = cn;
+                sqlCommand.CommandType = System.Data.CommandType.Text;
+                sqlCommand.CommandText = "select * from clientes where nome like @nome";
+                sqlCommand.Parameters.Add("@nome", System.Data.SqlDbType.VarChar);
+                sqlCommand.Parameters[0].Value = "%" + Nome + "%";
+
+                //sqlCommand.ExecuteNonQuery();
+
+                DataTable dt = new DataTable();
+                SqlDataAdapter adapter = new SqlDataAdapter(sqlCommand);
+
+                adapter.Fill(dt);
+
+                return dt;
+            }
+            catch (Exception ex)
+            {
+                return null;
+            }
+            finally
+            {
+                bd.FecharConexao();
+            }
+        }
     }
 }

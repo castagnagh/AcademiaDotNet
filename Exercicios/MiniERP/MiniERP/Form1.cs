@@ -14,16 +14,33 @@ namespace MiniERP
             InitializeComponent();
             //otimizar isso
             //preencher os dados dos clientes no datagrid
+            DataTable dt = new DataTable();
             dt = cli.BuscaClientes();
             dataGridViewClientes.DataSource = dt;
 
             //preencher os dados dos fornecedores no datagrid
-            dt = fornecedor.BuscaFornecedores();
-            dataGridViewFornecedores.DataSource = dt;
+            DataTable dtFor = new DataTable();
+            dtFor = fornecedor.BuscaFornecedores();
+            dataGridViewFornecedores.DataSource = dtFor;
+
+            //preencher os dados dos produtos no datagrid
+            dt = produto.BuscaProdutos();
+            dataGridViewProdutos.DataSource = dt;
+
+            //preencher os dados dos Itens no datagrid
+            dt = produto.BuscaItens();
+            dataGridViewItens.DataSource = dt;
 
             //desativar o campo Id Fornecedor na Aba Produtos
             textBoxIdFornecedor.Enabled = false;
             textBoxFornecedor.Enabled = false;
+
+            //DESATIVA O CAMPO Pesquisa cliente até ser selecionado um cliente
+            textBoxPesquisaCliente.Enabled = false;
+            //desativa o datagridview até ser selecionado um cliente
+            dataGridViewItens.Visible = false;
+            //desativa o button do add carrinho até ser selecionado o cliente
+            buttonAddCarrinho.Visible = false;
 
         }
 
@@ -143,10 +160,89 @@ namespace MiniERP
                 textBoxIdFornecedor.Text = idSelecionado.ToString();
                 textBoxFornecedor.Text = nomeSelecionado.ToString();
             }
-                
+        }
 
+        private void buttonPesquisarCliente_Click(object sender, EventArgs e)
+        {
 
+            BuscarCliente bc = new BuscarCliente();
+            bc.ShowDialog();
 
+            int idSelecionado = bc.IdCliente;
+            string nomeSelecionado = bc.Nome;
+
+            if (String.IsNullOrEmpty(idSelecionado.ToString()) || String.IsNullOrEmpty(nomeSelecionado))
+            {
+                MessageBox.Show("Você não selecionou nenhum cliente", "Aviso");
+            }
+            else
+            {
+                textBoxPesquisaCliente.Text = nomeSelecionado;
+                textBoxIdHiddenCliente.Text = idSelecionado.ToString();
+                dataGridViewItens.Visible = true;
+                buttonAddCarrinho.Visible = true;
+                buttonPesquisarAreaItensCliente.Enabled = false;
+                buttonRemoverNomePesquisaAreaitens.Visible = true;
+            }
+        }
+
+        //função feita para caso o usuario já tiver selecionado um cliente, mas depois clicar para selecionar novamente
+        //e nesse momento não selecionar ninguem, então
+        private void LimparCampos()
+        {
+            textBoxPesquisaCliente.Text = "";
+            dataGridViewItens.Visible = false;
+            buttonAddCarrinho.Visible = false;
+
+        }
+
+        private void buttonRemoverNomePesquisaAreaitens_Click(object sender, EventArgs e)
+        {
+            LimparCampos();
+            buttonPesquisarAreaItensCliente.Enabled = true;
+            buttonRemoverNomePesquisaAreaitens.Visible = false;
+        }
+
+        public int count = 0;
+        private void buttonAddCarrinho_Click(object sender, EventArgs e)
+        {
+            Carrinho c = new Carrinho();
+
+            if (count == 0)
+            {
+                c.Show();
+                count++;
+                AdicionarAoCarrinho();
+            }
+            else
+            {
+                AdicionarAoCarrinho();
+            }
+            
+
+            
+        }
+
+        private void AdicionarAoCarrinho()
+        {
+            RegistroCompra rc = new RegistroCompra();
+            Carrinho c = new Carrinho();
+
+            if (dataGridViewItens.SelectedRows.Count > 0)
+            {
+                DataGridViewRow linha = dataGridViewItens.SelectedRows[0];
+                //cells[0] é o id do produto
+                int idProduto = (int)linha.Cells["Cod"].Value;
+                //cells[2] é onde esta localizado o preço
+                float preco = (float)linha.Cells["Preço"].Value;
+                //e no textIdHidden é onde esta o Id do cliente selecionado
+                int idCliente = int.Parse(textBoxIdHiddenCliente.Text);
+
+                rc.addLista(preco, idCliente, idProduto);
+
+                c.AtualizarCarrinho(rc.listaItensTemp);
+                this.Close();
+            }
         }
     }
 }

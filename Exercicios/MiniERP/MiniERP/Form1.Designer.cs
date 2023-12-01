@@ -30,11 +30,15 @@
         {
             tabControlProdutos = new TabControl();
             tabPageCompras = new TabPage();
-            button3 = new Button();
+            buttonRemoverNomePesquisaAreaitens = new Button();
+            label19 = new Label();
+            textBoxIdHiddenCliente = new TextBox();
+            label18 = new Label();
+            dataGridViewItens = new DataGridView();
+            buttonAddCarrinho = new Button();
             label2 = new Label();
-            listView1 = new ListView();
-            button1 = new Button();
-            textBox1 = new TextBox();
+            buttonPesquisarAreaItensCliente = new Button();
+            textBoxPesquisaCliente = new TextBox();
             label1 = new Label();
             tabPageClientes = new TabPage();
             dataGridViewClientes = new DataGridView();
@@ -78,6 +82,7 @@
             label15 = new Label();
             tabControlProdutos.SuspendLayout();
             tabPageCompras.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)dataGridViewItens).BeginInit();
             tabPageClientes.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dataGridViewClientes).BeginInit();
             panel1.SuspendLayout();
@@ -103,11 +108,15 @@
             // 
             // tabPageCompras
             // 
-            tabPageCompras.Controls.Add(button3);
+            tabPageCompras.Controls.Add(buttonRemoverNomePesquisaAreaitens);
+            tabPageCompras.Controls.Add(label19);
+            tabPageCompras.Controls.Add(textBoxIdHiddenCliente);
+            tabPageCompras.Controls.Add(label18);
+            tabPageCompras.Controls.Add(dataGridViewItens);
+            tabPageCompras.Controls.Add(buttonAddCarrinho);
             tabPageCompras.Controls.Add(label2);
-            tabPageCompras.Controls.Add(listView1);
-            tabPageCompras.Controls.Add(button1);
-            tabPageCompras.Controls.Add(textBox1);
+            tabPageCompras.Controls.Add(buttonPesquisarAreaItensCliente);
+            tabPageCompras.Controls.Add(textBoxPesquisaCliente);
             tabPageCompras.Controls.Add(label1);
             tabPageCompras.Location = new Point(4, 24);
             tabPageCompras.Name = "tabPageCompras";
@@ -117,14 +126,71 @@
             tabPageCompras.Text = "Área de Compras";
             tabPageCompras.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // buttonRemoverNomePesquisaAreaitens
             // 
-            button3.Location = new Point(727, 418);
-            button3.Name = "button3";
-            button3.Size = new Size(154, 23);
-            button3.TabIndex = 5;
-            button3.Text = "Adicionar ao Carrinho";
-            button3.UseVisualStyleBackColor = true;
+            buttonRemoverNomePesquisaAreaitens.Location = new Point(510, 66);
+            buttonRemoverNomePesquisaAreaitens.Name = "buttonRemoverNomePesquisaAreaitens";
+            buttonRemoverNomePesquisaAreaitens.Size = new Size(116, 23);
+            buttonRemoverNomePesquisaAreaitens.TabIndex = 10;
+            buttonRemoverNomePesquisaAreaitens.Text = "Remover Cliente";
+            buttonRemoverNomePesquisaAreaitens.UseVisualStyleBackColor = true;
+            buttonRemoverNomePesquisaAreaitens.Visible = false;
+            buttonRemoverNomePesquisaAreaitens.Click += buttonRemoverNomePesquisaAreaitens_Click;
+            // 
+            // label19
+            // 
+            label19.AutoSize = true;
+            label19.Location = new Point(425, 19);
+            label19.Name = "label19";
+            label19.Size = new Size(62, 15);
+            label19.TabIndex = 9;
+            label19.Text = "Id Hidden:";
+            label19.Visible = false;
+            // 
+            // textBoxIdHiddenCliente
+            // 
+            textBoxIdHiddenCliente.Enabled = false;
+            textBoxIdHiddenCliente.Location = new Point(493, 15);
+            textBoxIdHiddenCliente.Name = "textBoxIdHiddenCliente";
+            textBoxIdHiddenCliente.Size = new Size(38, 23);
+            textBoxIdHiddenCliente.TabIndex = 8;
+            textBoxIdHiddenCliente.Visible = false;
+            // 
+            // label18
+            // 
+            label18.AutoSize = true;
+            label18.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label18.Location = new Point(38, 13);
+            label18.Name = "label18";
+            label18.Size = new Size(319, 21);
+            label18.TabIndex = 7;
+            label18.Text = "Selecione o cliente que irá realizar a compra!";
+            // 
+            // dataGridViewItens
+            // 
+            dataGridViewItens.AllowUserToAddRows = false;
+            dataGridViewItens.AllowUserToDeleteRows = false;
+            dataGridViewItens.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridViewItens.Cursor = Cursors.Hand;
+            dataGridViewItens.EditMode = DataGridViewEditMode.EditProgrammatically;
+            dataGridViewItens.Location = new Point(39, 141);
+            dataGridViewItens.MultiSelect = false;
+            dataGridViewItens.Name = "dataGridViewItens";
+            dataGridViewItens.ReadOnly = true;
+            dataGridViewItens.RowHeadersWidthSizeMode = DataGridViewRowHeadersWidthSizeMode.AutoSizeToAllHeaders;
+            dataGridViewItens.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
+            dataGridViewItens.Size = new Size(840, 272);
+            dataGridViewItens.TabIndex = 6;
+            // 
+            // buttonAddCarrinho
+            // 
+            buttonAddCarrinho.Location = new Point(727, 418);
+            buttonAddCarrinho.Name = "buttonAddCarrinho";
+            buttonAddCarrinho.Size = new Size(154, 23);
+            buttonAddCarrinho.TabIndex = 5;
+            buttonAddCarrinho.Text = "Adicionar ao Carrinho";
+            buttonAddCarrinho.UseVisualStyleBackColor = true;
+            buttonAddCarrinho.Click += buttonAddCarrinho_Click;
             // 
             // label2
             // 
@@ -135,38 +201,31 @@
             label2.TabIndex = 4;
             label2.Text = "Itens a Venda";
             // 
-            // listView1
+            // buttonPesquisarAreaItensCliente
             // 
-            listView1.Location = new Point(38, 130);
-            listView1.Name = "listView1";
-            listView1.Size = new Size(843, 282);
-            listView1.TabIndex = 3;
-            listView1.UseCompatibleStateImageBehavior = false;
+            buttonPesquisarAreaItensCliente.Location = new Point(429, 66);
+            buttonPesquisarAreaItensCliente.Name = "buttonPesquisarAreaItensCliente";
+            buttonPesquisarAreaItensCliente.Size = new Size(75, 23);
+            buttonPesquisarAreaItensCliente.TabIndex = 2;
+            buttonPesquisarAreaItensCliente.Text = "Pesquisar";
+            buttonPesquisarAreaItensCliente.UseVisualStyleBackColor = true;
+            buttonPesquisarAreaItensCliente.Click += buttonPesquisarCliente_Click;
             // 
-            // button1
+            // textBoxPesquisaCliente
             // 
-            button1.Location = new Point(428, 52);
-            button1.Name = "button1";
-            button1.Size = new Size(75, 23);
-            button1.TabIndex = 2;
-            button1.Text = "Pesquisar";
-            button1.UseVisualStyleBackColor = true;
-            // 
-            // textBox1
-            // 
-            textBox1.Location = new Point(38, 52);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(384, 23);
-            textBox1.TabIndex = 1;
+            textBoxPesquisaCliente.Location = new Point(39, 66);
+            textBoxPesquisaCliente.Name = "textBoxPesquisaCliente";
+            textBoxPesquisaCliente.Size = new Size(384, 23);
+            textBoxPesquisaCliente.TabIndex = 1;
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(38, 34);
+            label1.Location = new Point(39, 48);
             label1.Name = "label1";
-            label1.Size = new Size(145, 15);
+            label1.Size = new Size(98, 15);
             label1.TabIndex = 0;
-            label1.Text = "Pesquisar Cliente por CPF:";
+            label1.Text = "Nome do cliente:";
             // 
             // tabPageClientes
             // 
@@ -586,6 +645,7 @@
             tabControlProdutos.ResumeLayout(false);
             tabPageCompras.ResumeLayout(false);
             tabPageCompras.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)dataGridViewItens).EndInit();
             tabPageClientes.ResumeLayout(false);
             tabPageClientes.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)dataGridViewClientes).EndInit();
@@ -611,9 +671,8 @@
         private TabPage tabPageClientes;
         private TabPage tabPageFornecedores;
         private TabPage tabPageProdutos;
-        private ListView listView1;
-        private Button button1;
-        private TextBox textBox1;
+        private Button buttonPesquisarAreaItensCliente;
+        private TextBox textBoxPesquisaCliente;
         private Label label1;
         private Label label2;
         private Panel panel1;
@@ -623,7 +682,7 @@
         private Label label3;
         private Label label4;
         private Label label5;
-        private Button button3;
+        private Button buttonAddCarrinho;
         private Label label6;
         private Button buttonExcluirCliente;
         private Panel panel2;
@@ -655,5 +714,10 @@
         private TextBox textBoxIdFornecedor;
         private Label label17;
         private Button button4;
+        private Label label18;
+        private DataGridView dataGridViewItens;
+        private TextBox textBoxIdHiddenCliente;
+        private Label label19;
+        private Button buttonRemoverNomePesquisaAreaitens;
     }
 }

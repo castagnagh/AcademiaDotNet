@@ -39,8 +39,6 @@ namespace MiniERP
 
                 this.Close();
             }
-
-
         }
 
         private void buscarFornecedor(object sender, KeyEventArgs e)
