@@ -22,8 +22,7 @@ namespace MiniERP
         {
             foreach (var itemCompra in lista)
             {
-                string[] itens = { itemCompra.PrecoTotal.ToString(), 
-                    itemCompra.IdProdutos.ToString(), itemCompra.IdClientes.ToString() };
+                string[] itens = { itemCompra.PrecoTotal.ToString(), itemCompra.IdProdutos.ToString(), itemCompra.IdClientes.ToString() };
                 listView1.Items.Add(new ListViewItem(itens));
             }
         }

@@ -145,6 +145,18 @@ namespace CA_Entity
                 case 6:
                     try
                     {
+                        Console.WriteLine("Informe o ID da pessoa");
+                        int id = int.Parse(Console.ReadLine());
+
+                        Pessoa pessoa = contexto.Pessoas.Include(p => p.Emails)
+                                            .FirstOrDefault(p => p.id == id);
+
+                        Console.WriteLine(pessoa.nome);
+
+                        foreach (Email item in pessoa.Emails)
+                        {
+                            Console.WriteLine("\t" + item.email);
+                        }
 
                     }
                     catch (Exception ex)

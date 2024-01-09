@@ -179,12 +179,12 @@
             dataGridViewItens.ReadOnly = true;
             dataGridViewItens.RowHeadersWidthSizeMode = DataGridViewRowHeadersWidthSizeMode.AutoSizeToAllHeaders;
             dataGridViewItens.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
-            dataGridViewItens.Size = new Size(840, 272);
+            dataGridViewItens.Size = new Size(448, 272);
             dataGridViewItens.TabIndex = 6;
             // 
             // buttonAddCarrinho
             // 
-            buttonAddCarrinho.Location = new Point(727, 418);
+            buttonAddCarrinho.Location = new Point(333, 419);
             buttonAddCarrinho.Name = "buttonAddCarrinho";
             buttonAddCarrinho.Size = new Size(154, 23);
             buttonAddCarrinho.TabIndex = 5;

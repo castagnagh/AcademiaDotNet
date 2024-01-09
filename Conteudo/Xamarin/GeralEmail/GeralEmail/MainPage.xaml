@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GeralEmail.MainPage">
+
+    <ScrollView>
+        <StackLayout>
+
+            <StackLayout>
+                <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+                    <Label Text="Gerador de Email UFN!" HorizontalTextAlignment="Center" TextColor="White" FontSize="24"/>
+                </Frame>
+
+                <Label Text="Insira seu nome completo" FontSize="16" Padding="30,10,30,10"/>
+                <Entry x:Name="nomeComp"/>
+                <Button x:Name="btEnviar" Text="Enviar" Padding="30,10,30,10"/>
+
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="Email Gerado: " FontSize="16"/>
+                    <Label x:Name="lbEmailGerado" FontSize="16"/>
+                </StackLayout>
+            </StackLayout>
+
+
+            <StackLayout>
+                <Frame BackgroundColor="#2196F3" Padding="5" CornerRadius="0">
+                    <Label Text="Calcular IMC!" HorizontalTextAlignment="Center" TextColor="White" FontSize="24"/>
+                </Frame>
+
+                <Label Text="Insira seu nome" FontSize="16" />
+                <Entry x:Name="nome"/>
+
+                <Label Text="Insira seu idade" FontSize="16"/>
+                <Entry x:Name="idade"/>
+                <Label Text="Insira seu peso (Kg)" FontSize="16" />
+                <Entry x:Name="peso"/>
+                <Label Text="Insira sua altura (metros)" FontSize="16" />
+                <Entry x:Name="altura"/>
+                <Button x:Name="btCalcular" Text="Calcular" />
+
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="IMC: " FontSize="16"/>
+                    <Label x:Name="lbImc" FontSize="16"/>
+                </StackLayout>
+            </StackLayout>
+        </StackLayout>
+    </ScrollView>
+
+</ContentPage>

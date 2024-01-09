@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "f1q5GM+LkNLDJWC5LRVb+5/6zL43sRI/PuJQ72P1LwXEHxNZzdz77zsoG+FO3DctCPbKzhDW5Nnrj2/AwnLbEQ==",
+  "dgSpecHash": "E/v6DSdwbycj/gSNEsanyVgwzjYvEaf2a5KRhgebkjK/dqGF+fDqioKdhb6ur0dxcaZvnNhkxTuc3/zOa1fMAQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\GabrielCastagna\\Documents\\_git\\AcademiaDotNet\\Exercicios\\MiniERP\\CA_Entity\\CA_Entity.csproj",
+  "projectFilePath": "C:\\Users\\GabrielCastagna\\Documents\\_git\\AcademiaDotNet\\Conteudo\\CA_Entity\\CA_Entity.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\GabrielCastagna\\.nuget\\packages\\castle.core\\4.4.1\\castle.core.4.4.1.nupkg.sha512",
     "C:\\Users\\GabrielCastagna\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",

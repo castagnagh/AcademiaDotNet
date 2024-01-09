@@ -8,7 +8,10 @@ namespace MiniERP
         Fornecedor fornecedor = new Fornecedor();
         Produto produto = new Produto();
         DataTable dt = new DataTable();
-
+        //criar uma lista com todos os produtos inseridos no carrinho
+        //para quando o cliente resolver finalizar a compra, salvar no banco de dados essa lista
+        //pois pensei nessa maneira caso o cliente queira cancelar a compra, nesse caso a lista só é desfeita e nada é gravado no banco
+        List<RegistroCompra> listaTempItens = new List<RegistroCompra>();
         public Form1()
         {
             InitializeComponent();
@@ -218,14 +221,14 @@ namespace MiniERP
             {
                 AdicionarAoCarrinho();
             }
-            
 
-            
+
+
         }
 
         private void AdicionarAoCarrinho()
         {
-            RegistroCompra rc = new RegistroCompra();
+            //add na lista o cliente + produto
             Carrinho c = new Carrinho();
 
             if (dataGridViewItens.SelectedRows.Count > 0)
@@ -234,14 +237,16 @@ namespace MiniERP
                 //cells[0] é o id do produto
                 int idProduto = (int)linha.Cells["Cod"].Value;
                 //cells[2] é onde esta localizado o preço
-                float preco = (float)linha.Cells["Preço"].Value;
+                //float preco = (float)linha.Cells["Preço"].Value;
+                int qtdTotal = 5;
                 //e no textIdHidden é onde esta o Id do cliente selecionado
                 int idCliente = int.Parse(textBoxIdHiddenCliente.Text);
+                //construtor cliente + produto
+                RegistroCompra rc = new RegistroCompra(qtdTotal, idProduto, idCliente);
 
-                rc.addLista(preco, idCliente, idProduto);
-
-                c.AtualizarCarrinho(rc.listaItensTemp);
-                this.Close();
+                listaTempItens.Add(rc);
+                c.AtualizarCarrinho(listaTempItens);
+                
             }
         }
     }

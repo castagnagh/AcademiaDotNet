@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\GabrielCastagna\\Documents\\_git\\AcademiaDotNet\\Exercicios\\MiniERP\\CA_Entity\\CA_Entity.csproj": {}
+    "C:\\Users\\GabrielCastagna\\Documents\\_git\\AcademiaDotNet\\Conteudo\\CA_Entity\\CA_Entity.csproj": {}
   },
   "projects": {
-    "C:\\Users\\GabrielCastagna\\Documents\\_git\\AcademiaDotNet\\Exercicios\\MiniERP\\CA_Entity\\CA_Entity.csproj": {
+    "C:\\Users\\GabrielCastagna\\Documents\\_git\\AcademiaDotNet\\Conteudo\\CA_Entity\\CA_Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\GabrielCastagna\\Documents\\_git\\AcademiaDotNet\\Exercicios\\MiniERP\\CA_Entity\\CA_Entity.csproj",
+        "projectUniqueName": "C:\\Users\\GabrielCastagna\\Documents\\_git\\AcademiaDotNet\\Conteudo\\CA_Entity\\CA_Entity.csproj",
         "projectName": "CA_Entity",
-        "projectPath": "C:\\Users\\GabrielCastagna\\Documents\\_git\\AcademiaDotNet\\Exercicios\\MiniERP\\CA_Entity\\CA_Entity.csproj",
+        "projectPath": "C:\\Users\\GabrielCastagna\\Documents\\_git\\AcademiaDotNet\\Conteudo\\CA_Entity\\CA_Entity.csproj",
         "packagesPath": "C:\\Users\\GabrielCastagna\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\GabrielCastagna\\Documents\\_git\\AcademiaDotNet\\Exercicios\\MiniERP\\CA_Entity\\obj\\",
+        "outputPath": "C:\\Users\\GabrielCastagna\\Documents\\_git\\AcademiaDotNet\\Conteudo\\CA_Entity\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\GabrielCastagna\\AppData\\Roaming\\NuGet\\NuGet.Config",

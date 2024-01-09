@@ -10,7 +10,7 @@ namespace MiniERP
 {
     internal class Banco
     {
-        public string conec = @"Data Source=.\SQLEXPRESS;Initial Catalog=miniERP;User ID=usuario;Password=senha1234";
+        public string conec = @"Data Source=.\SQLEXPRESS;Initial Catalog=miniERP;User ID=usuario1;Password=senha1234";
 
         private SqlConnection cn;
 
